@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zyron Vale</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 40px;
+      background: #020617;
+    }
+
+    header h1 {
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #cbd5e1;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    .hero {
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(to right, #020617, #0f172a);
+    }
+
+    .hero h2 {
+      font-size: 45px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #94a3b8;
+      font-size: 18px;
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 14px 28px;
+      background: #22c55e;
+      color: black;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: #020617;
+      padding: 25px;
+      width: 250px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>ZYRON VALE</h1>
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Serviços</a>
+    <a href="#">Contato</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Conectando você ao mercado global</h2>
+  <p>Exportações, oportunidades e crescimento internacional</p>
+
+  <a href="https://wa.me/5597984527397" class="btn">Falar no WhatsApp</a>
+</section>
+
+<section class="section">
+  <h2>Nosso Serviços</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Exportação</h3>
+      <p>Levamos produtos para qualquer lugar.</p>
+    </div>
+
+    <div class="card">
+      <h3>Consultoria</h3>
+      <p>Orientação estratégica para negócios internacionais.</p>
+    </div>
+
+    <div class="card">
+      <h3>Logística</h3>
+      <p>Planejamento completo de transporte e distribuição.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Sobre a Zyron Vale</h2>
+  <p>
+    Somos uma empresa focada em expandir negócios além das fronteiras,
+    conectando mercados e criando oportunidades.
+  </p>
+</section>
+
+<footer>
+  © 2026 Zyron Vale - Todos os direitos reservados
+</footer>
+
+</body>
+</html>
